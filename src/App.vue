@@ -6,6 +6,7 @@
 </template>
 
 <script>
+
 import Navigation from './components/Navigation.vue'
 
 export default {
@@ -16,7 +17,9 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss" scoped>
+@import "~vue-material/dist/theme/engine";
+
 #app {
   font-family: 'Roboto', sans-serif;
   -webkit-font-smoothing: antialiased;
